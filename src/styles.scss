@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+@for $i from 1 through 600
+{
+    .w#{$i} {width: 1px * $i !important}
+}
+
+@for $i from 1 to 600 {
+    .mr#{$i} {margin-right: 1px * $i !important}
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'gilroy-bold';
+
+}
+
+.nav-second a:last-child{
+  text-decoration: underline;
+
+}
+
+.banner{
+  // background-image: url(../src/assets/Page\ 1\ BG.png);
+  background-image: url("../src/assets/Group\ 20667.png");
+  height: 600px;
+  background-position: right;
+  overflow-x: hidden ! important;
+  // background-size: cover;
+
+    .banner-inner{
+
+      .banner-labels h1{
+        color: white;
+        font-size: 70px;
+        font-weight: 650;
+        line-height: 85px;
+      }
+      .banner-labels h5{
+        color: white;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 49px;
+      }
+      .banner-labels p{
+        color: white;
+        font-size: 30px;
+        // font-weight: 650;
+        line-height: 43px;
+      }
+    }
+}
+
+.r10{
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+}
+
+.theme-color-yellow{
+  color: #FFD981;
+  ;
+}

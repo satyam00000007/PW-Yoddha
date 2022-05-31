@@ -1,0 +1,285 @@
+@font-face {
+  font-family: "gilroy-bold";
+  src: url(../../assets/GilroyFont/Gilroy-Black.woff);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "gilroy-regular";
+  src: url(../../assets/GilroyFont/Gilroy-Regular.woff);
+}
+
+.d_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d_ard{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.pink{
+  color: #F482AC;
+}
+.bg-pink{
+  background-color: #F482AC;
+}
+.yellow{
+  color: #FFCB55 !important;
+
+}
+.blue{
+  color: #5A4BDA;
+}
+.bg-yellow{
+  background-color: #FFCB55;
+}
+.green{
+  color: #61DE96;
+}
+.bg-green{
+  background-color: #61DE96;
+}
+.bg-blue{
+  background: #5A4BDA;
+}
+
+.shadow_lt{
+  box-shadow: -2px 4px 20px rgba(158, 158, 158, 0.369);
+}
+.gr_green{
+  background: linear-gradient(90deg, #B1EDCA 0%, rgba(177, 237, 202, 0.19) 100%);
+}
+.gr_yellow{
+  background: linear-gradient(90deg, #F9DE9E 0%, rgba(249, 222, 158, 0.42) 100%);
+}
+.gr_pink{
+  background: linear-gradient(90deg, #FFCEE0 0%, rgba(255, 206, 224, 0.48) 100%);
+}
+
+
+
+
+
+
+
+.header{
+  height: 100px;
+}
+
+.header .row .col-5 div{
+  height: 100px;
+}
+.header .row .col-5 div a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.header .row .col-5 div a:first-child{
+  text-decoration: underline;
+  color: black;
+  font-weight: 500;
+}
+.header .row .col-7{
+  height: 100px;
+}
+.firstsec{
+  background-image: url("../../assets/bg-1.png");
+  width: 100%;
+  height: 550px;
+}
+.firstsec_detail .heading{
+  font-size: 50px;
+  color: #fff;
+}
+.firstsec_detail .heading span{
+  font-size: 50px;
+  color: #FED532;
+
+}
+.btn{
+  border-radius: 8px;
+  width: 190px;
+  height: 50px;
+}
+.sub_heading{
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.sub_heading span{
+  font-size: 40px;
+  font-weight: bold;
+  color: #5A4BDA;
+
+}
+
+
+.video{
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  border-bottom-left-radius: 15px;
+  overflow: hidden;
+  background: rgba(0, 0, 0);
+}
+
+.col-9 p{
+  color: #333333;
+  font-weight: 500;
+
+}
+
+.secondsec_head{
+  max-width: 500px;
+}
+
+.underline{
+  height: 3px;
+  width: 120px;
+  border-radius: 2px;
+  background-color: #5A4BDA;
+}
+
+.fourthsec{
+  background-image: url("../../assets/fourth_sec/Group\ 20658.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+.fourthsec .underline{
+  background: #FED532;
+}
+.image{
+  max-width: 800px;
+  z-index: 5;
+}
+.sub_header p{
+  color: #333333;
+  max-width: 410px;
+}
+.sub_header{
+  position: relative;
+}
+.fifthsec .relative_image{
+  position: absolute;
+  top: -20px;
+  right: 230px;
+}
+.card_sec{
+  width: 100%;
+}
+.card{
+width: 800px;
+border-radius: 10px;
+overflow: hidden;
+border: none;
+}
+.table{
+  width: 1000px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+td p{
+ color:  #888888;
+ font-family: 'gilroy-regular';
+
+}
+td p span{
+  color:  #000;
+  margin-left: 10px;
+
+}
+.number{
+   font-size: 25px;
+   height: 28px;
+}
+.table_container{
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+.table_img_left{
+  position: absolute;
+  bottom: 16px;
+  left: -54px;
+}
+.table_img_rt{
+  position: absolute;
+  bottom: 16px;
+  right: -46px;
+}
+
+.contact_card{
+  border-radius: 10px;
+  position: relative;
+}
+.contact_card img{
+  height: 150px;
+}
+.contact_card .btn{
+  height: 40px;
+  width: 130px;
+  position: absolute;
+  top: 90px;
+  right: 125px;
+  font-size: small;
+}
+.footsec{
+  background: #000;
+  color: #fff;
+ font-family: 'gilroy-regular';
+ height: 1100px;
+ padding-top: 150px;
+
+}
+
+.footsec div div{
+ max-width: 1100px;
+}
+.content{
+  font-family: "gilroy-regular";
+  margin-right: 30px;
+  font-size: small;
+}
+.appstore_card{
+
+ border: 1px solid  #604EF7;
+  border-radius: 10px;
+  width: 335px;
+}
+.courses p{
+  font-size: 17px;
+  font-family: 'gilroy-bold';
+}
+.courses p:first-child{
+  font-size: 19px;
+
+}
+.contact_card{
+  transform: translateY(140px);
+  background: #fff;
+}
+.centers{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  height: 140px;
+  width: 100%;
+}
+.centers p{
+  color: rgba(90, 75, 218, 1);
+  font-size: 25px;
+
+}
+.centers div a{
+  color: #fff;
+  text-decoration: none;
+}
+.centers div{
+  width: 850px;
+}
+.footsec_foot{
+  height: 100px;
+  width: 100%;
+}
+
